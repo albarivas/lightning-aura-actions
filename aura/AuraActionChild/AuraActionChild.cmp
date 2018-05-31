@@ -1,0 +1,6 @@
+<aura:component >
+    <aura:attribute name="myAction" type="Aura.Action" />
+    
+    <lightning:button label="Click me!" onclick="{!v.myAction}"/>
+	
+</aura:component>

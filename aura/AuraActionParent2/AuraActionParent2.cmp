@@ -1,0 +1,6 @@
+<aura:component >
+    <aura:handler name="myEventInstance" event="c:MyEvent" action="{!c.handleComponentEvent}"/>
+    <c:AuraActionChild2 aura:id="clapbutton"/>
+    <c:AuraActionChild2 aura:id="jumpbutton"/>
+    <c:AuraActionChild2 aura:id="dancebutton"/>
+</aura:component>
